@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-06-23 14:13:08" Modified_Date="2018-06-23 14:14:32" Creator="Patrick" Comments="" ID="e0cbeb0828d354529bc6dc062bc6956f">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-06-23 14:13:08" Modified_Date="2018-06-26 12:21:42" Creator="Patrick" Comments="" ID="322d37913a8ff67b4c98500e255dbed3">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
     <Library_Version>1.0.0.2</Library_Version>
@@ -111,9 +111,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
@@ -199,21 +196,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>.</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Source V1 and V2.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\RP100\Drivers\Source V1 and V2.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>A638FA2DE7AD3A884BA51406A7BD49CE</GUID>
+      <GUID>37EA455916E4FCF15A424A26C682B965</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
