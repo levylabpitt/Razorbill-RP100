@@ -10,6 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="build support" Type="Folder">
+			<Item Name="Razorbill RP100.vipb" Type="Document" URL="../../build support/Razorbill RP100.vipb"/>
+		</Item>
 		<Item Name="RP100.lvclass" Type="LVClass" URL="../SMOs/RP100/RP100.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
