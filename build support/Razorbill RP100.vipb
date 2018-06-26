@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-06-23 14:13:08" Modified_Date="2018-06-26 12:30:21" Creator="Patrick" Comments="" ID="7f10813965e6828050898a3a99a7f748">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-06-23 14:13:08" Modified_Date="2018-06-26 13:23:20" Creator="Patrick" Comments="" ID="5b1a2665e5b316f38e3b4af56ebdb153">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
-    <Library_Version>1.1.0.3</Library_Version>
+    <Library_Version>1.1.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -39,7 +39,10 @@
 - SOUR#:VOLT[?]
 - SOUR#VOLT:SLEW[?]
 - MEAS#:VOLT?
-- MEAS#:CURR?</Release_Notes>
+- MEAS#:CURR?
+
+[1.1.1.3]:
+fix corrupt VISA control</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -231,7 +234,7 @@
         <Path>..\lvsrc\SMOs\RP100\Drivers</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>15936DE87FC2D2E5FAA474FD231E5452</GUID>
+      <GUID>1F6A4F8916A74A2517FD5376FDC6D037</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -392,7 +395,7 @@
         <Path>..\lvsrc\SMOs\RP100\Drivers\Measure Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01E8D7AF00E0D8CB3F33D61EEB3B78EB</GUID>
+      <GUID>05FB400F95D1BB21525F9AAEC555A7C3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
