@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-06-23 14:13:08" Modified_Date="2020-01-07 12:51:44" Creator="Patrick" Comments="" ID="c05b5e39f27725f47f9f69c89e8d9b21">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-06-23 14:13:08" Modified_Date="2020-01-07 12:54:03" Creator="Patrick" Comments="" ID="dc41cb34d70cc9fc10ea232fa7a631df">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
-    <Library_Version>1.2.0.4</Library_Version>
+    <Library_Version>1.2.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
