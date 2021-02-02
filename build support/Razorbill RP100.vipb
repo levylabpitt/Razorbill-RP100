@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-06-23 14:13:08" Modified_Date="2020-01-07 12:54:03" Creator="Patrick" Comments="" ID="dc41cb34d70cc9fc10ea232fa7a631df">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2021-02-02 17:44:49" Creator="Patrick" Comments="" ID="a27eda7f0447f15a360541e86ca87580">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
-    <Library_Version>1.2.0.5</Library_Version>
+    <Library_Version>1.2.1.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -19,7 +19,7 @@
     <Package_Dependencies>
       <External_Dependencies>jki_statemachineobjects &gt;= 1.3.0.56</External_Dependencies>
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.4.1.52</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.8.1.97</Additional_External_Dependencies>
       <Direct_Dependencies>jki_statemachineobjects-1.3.0.56</Direct_Dependencies>
       <Direct_Dependencies>oglib_time-4.0.1.3</Direct_Dependencies>
     </Package_Dependencies>
@@ -38,9 +38,11 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.2.0.4]
-- Inherit from Instrument.Strain.lvclass
-- Implement Set Strain and Get Strain methods defined by parent class</Release_Notes>
+      <Release_Notes>[1.2.1.5]
+- Issue #1: Add RST method
+- Issue #2: Calling Source V1(2) or Set Strain always enables output
+- Issue #3: Add Error case structure to all methods
+- Add VISA RW subVI to handle VISA read and write. Can be used to send arbitrary commands, for example for debugging, checking errors</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -260,7 +262,7 @@
         <Path>..\lvsrc\SMOs\RP100\API\Get Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>00537D9ACF23F0A884E30D140BEFD432</GUID>
+      <GUID>D7DA85DA669C6C12FA696CB6586B758D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -268,7 +270,7 @@
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>4</Height_Row>
-        <Width_Col.>4</Width_Col.>
+        <Width_Col.>5</Width_Col.>
       </Size>
       <_256_Color_Icon>0000049B002900000012000000020000000D00FFFFFF000100000000000A000000080000000000200020002800000217000001E3000000050007001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000001FFC10001FFAC5267FFA9574DFFA95443FFC9234DFF000001FF002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</_256_Color_Icon>
       <BW_Color_Icon>00000000</BW_Color_Icon>
@@ -400,8 +402,8 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>4</Row>
-          <Column>3</Column>
+          <Row>2</Row>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\SMOs\RP100\Drivers\Measure Current.vi</Path>
@@ -414,14 +416,42 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>4</Row>
-          <Column>4</Column>
+          <Row>2</Row>
+          <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\SMOs\RP100\Drivers\Measure Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0188B9FB5F9863EDEA891BE8A2FF4ABC</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>VISA RW.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\SMOs\RP100\subVIs\VISA RW.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>RST.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\SMOs\RP100\Drivers\RST.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>C26CECD7FDF7135996097DBA5F41944C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
