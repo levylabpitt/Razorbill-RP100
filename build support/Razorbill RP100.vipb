@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2021-02-02 17:44:49" Creator="Patrick" Comments="" ID="a27eda7f0447f15a360541e86ca87580">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2021-02-02 18:19:16" Creator="Patrick" Comments="" ID="5d19ee5263908e4dc103acb378aaa557">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
-    <Library_Version>1.2.1.5</Library_Version>
+    <Library_Version>1.2.1.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -262,7 +262,7 @@
         <Path>..\lvsrc\SMOs\RP100\API\Get Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D7DA85DA669C6C12FA696CB6586B758D</GUID>
+      <GUID>515BB35AE0F59D57490261A9A4FA75E7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -451,7 +451,7 @@
         <Path>..\lvsrc\SMOs\RP100\Drivers\RST.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C26CECD7FDF7135996097DBA5F41944C</GUID>
+      <GUID>6C6F96094DAEFE384784E9A792C4539A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
