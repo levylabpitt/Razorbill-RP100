@@ -174,33 +174,6 @@
 		</Item>
 	</Item>
 	<Item Name="API" Type="Folder">
-		<Item Name="Source V1 and V2.vi" Type="VI" URL="../API/Source V1 and V2.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%U!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#R!=!!/"5FO=X2S!!!7!)!!!!!!!1!%!!!!!1!!!!!!!!B736.")'^V&gt;!!!%5!+!!J4&lt;'6X)#B7,X-J!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!$5!+!!:7-C!I6CE!!!V!#A!'6D%A+&amp;9J!!!K1(!!$A6*&lt;H.U=A!!&amp;A#!!!!!!!%!"!!!!!%!!!!!!!!(6EF413"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!9!"Q!)!!E!#A-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!)!!!!#A!!!!A!!!!)!!!!#!!!!!!"!!M!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
-		</Item>
-		<Item Name="Source V1.vi" Type="VI" URL="../API/Source V1.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%5!+!!JN:7&amp;T&gt;8*F:#"*!!!21!I!#GVF98.V=G6E)&amp;9!!#R!=!!/"5FO=X2S!!!7!)!!!!!!!1!%!!!!!1!!!!!!!!B736.")'^V&gt;!!!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!.1!I!"V9R)(*B&gt;'5!#5!+!!*7-1!!+E"Q!!Y&amp;37ZT&gt;()!!"9!A!!!!!!"!!1!!!!"!!!!!!!!"V:*5U%A;7Y!6!$Q!!Q!!Q!%!!5!"A!(!!=!"Q!(!!A!#1!+!!M$!!"Y!!!.#!!!#1!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!!#!!!!!A!!!!!!1!-!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
-		</Item>
-		<Item Name="Source V2.vi" Type="VI" URL="../API/Source V2.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%5!+!!JN:7&amp;T&gt;8*F:#"*!!!21!I!#GVF98.V=G6E)&amp;9!!#R!=!!/"5FO=X2S!!!7!)!!!!!!!1!%!!!!!1!!!!!!!!B736.")'^V&gt;!!!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!.1!I!"V9S)(*B&gt;'5!#5!+!!*7-A!!+E"Q!!Y&amp;37ZT&gt;()!!"9!A!!!!!!"!!1!!!!"!!!!!!!!"V:*5U%A;7Y!6!$Q!!Q!!Q!%!!5!"A!(!!=!"Q!(!!A!#1!+!!M$!!"Y!!!.#!!!#1!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!!#!!!!!A!!!!!!1!-!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
-		</Item>
 		<Item Name="Set Strain.vi" Type="VI" URL="../API/Set Strain.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!=!!?!!!0$6*1-4!Q,GRW9WRB=X-!#6*1-4!Q)'^V&gt;!!.1!-!"U.I97ZO:7Q!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!21!I!#F.M:8=A+&amp;9P=SE!!"&amp;!#A!+5X2S97FO)#B7+1!!)E"Q!"Y!!!].5F!R-$!O&lt;(:D&lt;'&amp;T=Q!)5F!R-$!A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!9!"!!(!!A!#1!+!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!#!!!!!!!!!!+!!!!#!!!!!A!!!#3!!!!!!%!#Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
