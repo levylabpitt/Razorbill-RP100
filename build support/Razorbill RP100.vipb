@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2021-05-20 12:15:05" Creator="Patrick" Comments="" ID="956845d58469d2ded758d77f11406b93">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2021-05-21 10:28:18" Creator="Patrick" Comments="" ID="32891bd163e39c6b348d540c92c59e25">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
-    <Library_Version>21.0.0.1</Library_Version>
+    <Library_Version>21.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -39,7 +39,13 @@
       <Packager/>
       <URL/>
       <Release_Notes>[21.0.0.1]
-- SMO</Release_Notes>
+- adds SMO-based monitor and control process
+- logs each channel's output state, level, slew, voltage, and current to the PGSQL database
+APIs:
+- Set Strain automatically sets V1 = -V2
+- Set Level sets the level of a single, selectable output channel
+- Get Strain returns the level for channel 1
+- Get Level returns the level from the selected single channel</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -246,7 +252,35 @@
         <Path>..\lvsrc\SMOs\RP100\API\Get Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A2D9F9EE25E77B9E1BA02E5EEE431FC5</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Set Level.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\SMOs\RP100\API\Set Level.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get Level.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\SMOs\RP100\API\Get Level.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>5F1D01EAEEC59EA3B94E2C59409FD42D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -421,7 +455,7 @@
         <Path>..\lvsrc\SMOs\RP100\Drivers\RST.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2CD45641113B1EC5F22192D4FE0BB392</GUID>
+      <GUID>190CC85F74253E96211BB4B241709829</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
