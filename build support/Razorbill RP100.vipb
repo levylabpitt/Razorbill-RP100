@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2021-05-21 10:48:28" Creator="Patrick" Comments="" ID="addf3d65bec594af6e2321ebe7325ddf">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2021-05-21 13:03:24" Creator="Patrick" Comments="" ID="83b4483d660a14712b3590fdd4f0cd1b">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
-    <Library_Version>21.0.0.3</Library_Version>
+    <Library_Version>21.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -38,14 +38,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[21.0.0.1]
-- adds SMO-based monitor and control process
-- logs each channel's output state, level, slew, voltage, and current to the PGSQL database
-APIs:
-- Set Strain automatically sets V1 = -V2
-- Set Level sets the level of a single, selectable output channel
-- Get Strain returns the level for channel 1
-- Get Level returns the level from the selected single channel</Release_Notes>
+      <Release_Notes>[21.0.1]
+- Issue#2</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -266,7 +260,7 @@ APIs:
         <Path>..\lvsrc\SMOs\RP100\API\Get Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A771C473C84FD2C4853DDE28F5444D00</GUID>
+      <GUID>80A97EC9BABC8BD8CD4DD32FA36F1383</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
