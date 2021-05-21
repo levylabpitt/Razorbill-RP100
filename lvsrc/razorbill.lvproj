@@ -1408,7 +1408,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/Razorbill RP100.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2E138D05-CAEF-4AEA-AC47-EED2F21358E8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1F499515-39AA-4396-BFF9-966E5947D82F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RP100.lvclass/RP100.TestLauncher.vi</Property>
