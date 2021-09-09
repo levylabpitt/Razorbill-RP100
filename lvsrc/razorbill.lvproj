@@ -13,6 +13,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
+			<Item Name="libzmq32.dll" Type="Document" URL="/&lt;vilib&gt;/addons/zeromq/libzmq32.dll"/>
+			<Item Name="lvzmq32.dll" Type="Document" URL="/&lt;vilib&gt;/addons/zeromq/lvzmq32.dll"/>
 			<Item Name="Razorbill RP100.ico" Type="Document" URL="../../build support/Razorbill RP100.ico"/>
 			<Item Name="Razorbill RP100.vipb" Type="Document" URL="../../build support/Razorbill RP100.vipb"/>
 			<Item Name="Razorbill RP100.vipc" Type="Document" URL="../../build support/Razorbill RP100.vipc"/>
@@ -1433,12 +1435,15 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/Razorbill RP100.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1F499515-39AA-4396-BFF9-966E5947D82F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{ADF0564F-CC7D-4E2A-98C6-2936274E27D1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RP100.lvclass/RP100.TestLauncher.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/RP100.lvclass</Property>
+				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/RP100.lvclass/Process.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -1473,7 +1478,13 @@
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/RP100.lvclass/Typedefs</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/build support/libzmq32.dll</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/build support/lvzmq32.dll</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">11</Property>
 				<Property Name="TgtF_companyName" Type="Str">University of Pittsburgh</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Razorbill RP100 Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">Razorbill RP100 Application</Property>
