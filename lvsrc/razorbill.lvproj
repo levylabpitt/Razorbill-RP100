@@ -150,7 +150,7 @@
 				<Item Name="Increment Filename.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Increment Filename.vi"/>
 				<Item Name="Instrument.CBridge.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/CBridge/Instrument.CBridge.lvclass"/>
 				<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
-				<Item Name="Instrument.DelayLine.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/Delay Line/Instrument.DelayLine.lvclass"/>
+				<Item Name="Instrument.DelayLine.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/Optical Delay Line/Instrument.DelayLine.lvclass"/>
 				<Item Name="Instrument.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/Instrument/Instrument.lvclass"/>
 				<Item Name="Instrument.Strain.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/Strain/Instrument.Strain.lvclass"/>
 				<Item Name="Instrument.VNA.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/VNA/Instrument.VNA.lvclass"/>
@@ -1626,8 +1626,8 @@
 			<Item Name="mxLvSetStringProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetStringProperty.vi"/>
 			<Item Name="mxLvUpdateUI.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvUpdateUI.ctl"/>
 			<Item Name="mxLvUpdateUI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvUpdateUI.vi"/>
-			<Item Name="NI_MDF.lvlib" Type="Library" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
-			<Item Name="NIMdf.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
+			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
+			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
 			<Item Name="provcom_BindsAfterCreationBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_BindsAfterCreationBehavior.vi"/>
 			<Item Name="provcom_BrowseProjectFile.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_BrowseProjectFile.ctl"/>
 			<Item Name="provcom_BrowseProjectFile2.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_BrowseProjectFile2.ctl"/>
