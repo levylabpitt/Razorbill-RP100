@@ -249,13 +249,13 @@
 	</Item>
 	<Item Name="Methods (overrides)" Type="Folder">
 		<Item Name="Handle Command.vi" Type="VI" URL="../Methods (Overrides)/Handle Command.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;%"4$F"S&lt;W.F=X.F:#"%982B!!!11$$`````"U.P&lt;7VB&lt;G1!)E"Q!"Y!!!].5F!R-$!O&lt;(:D&lt;'&amp;T=Q!*5F!R-$!A&lt;X6U!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!J!5Q2%982B!!!C1(!!(A!!$QV35$%Q-#ZM&gt;G.M98.T!!B35$%Q-#"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!(!!=!"Q!(!!A!#1!&amp;!!I$!!"Y!!!.#!!!#1!!!!U+!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!##!!!!*)!!!!!!1!,!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;%"4$F"S&lt;W.F=X.F:#"%982B!!!11$$`````"U.P&lt;7VB&lt;G1!)E"Q!"Y!!!].5F!R-$!O&lt;(:D&lt;'&amp;T=Q!*5F!R-$!A&lt;X6U!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!J!5Q2%982B!!!C1(!!(A!!$QV35$%Q-#ZM&gt;G.M98.T!!B35$%Q-#"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!(!!=!"Q!(!!A!#1!&amp;!!I$!!"Y!!!.#!!!$1E!!!U+!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!+!!!##!!!!*)!!!!!!1!,!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="Handle getAll.vi" Type="VI" URL="../Methods (Overrides)/Handle getAll.vi">
