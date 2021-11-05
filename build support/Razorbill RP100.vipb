@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2021-10-22 11:37:10" Creator="Patrick" Comments="" ID="1f0593f5d2dd279a84bea16136ac3714">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2021-11-05 13:23:18" Creator="Patrick" Comments="" ID="24144b0131fb4300fad2e8358eeb94d7">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
-    <Library_Version>21.2.1.7</Library_Version>
+    <Library_Version>21.2.2.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -38,8 +38,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[21.2.1]
-- Update to  IF 1.10.3</Release_Notes>
+      <Release_Notes>[21.2.2]
+- Update to  IF 1.11.0</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -259,7 +259,7 @@
         <Path>..\lvsrc\SMOs\RP100\API\Get Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43AD12A174F6FD3B5AC56313749BEFA4</GUID>
+      <GUID>19FCFE820DE785078F2DA60ACA0B856B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
