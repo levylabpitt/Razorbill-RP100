@@ -24,6 +24,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
+				<Item Name="AH2500A.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/AH2500A/SMOs/AH2500A/AH2500A.lvclass"/>
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
@@ -183,6 +184,7 @@
 				<Item Name="MGI Approximately Equal.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Numeric/Comparison/MGI Approximately Equal.vi"/>
 				<Item Name="MGI Create Directory Chain Behavior Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain Behavior Enum.ctl"/>
 				<Item Name="MGI Create Directory Chain.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain.vi"/>
+				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
 				<Item Name="MGI Interpolate 1D Array Extended.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Interpolate 1D Array Extended.vi"/>
 				<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Reset.vi"/>
 				<Item Name="MGI Threshold 1D Array Extended.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Threshold 1D Array Extended.vi"/>
@@ -344,7 +346,6 @@
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 				<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
 				<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Section Cluster__ogtk.vi"/>
-				<Item Name="Write Variable.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/postgreSQL-timescaleDB/Data.PG/API/Write Variable.vi"/>
 				<Item Name="xy_utilities.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/XY Utilities/xy_utilities.lvlib"/>
 				<Item Name="ZLIB Block Size__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzip.llb/ZLIB Block Size__ogtk.vi"/>
 				<Item Name="ZLIB Close Write File__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzip.llb/ZLIB Close Write File__ogtk.vi"/>
@@ -1622,6 +1623,9 @@
 			<Item Name="SRdB_Proj_Write.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB_Proj/SRdB_Proj_Write.vi"/>
 			<Item Name="UpdateVersionInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/UpdateVersionInfo.vi"/>
 			<Item Name="UpdateVersionResource.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/UpdateVersionResource.vi"/>
+			<Item Name="version.dll" Type="Document" URL="version.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="VersionNumToString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/VersionNumToString.vi"/>
 			<Item Name="win32_MBCSToUnicode.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/win32_MBCSToUnicode.vi"/>
 		</Item>
@@ -1640,10 +1644,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{370E8FE4-E5CE-4BC1-BC3B-F51762943558}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">4</Property>
+				<Property Name="Bld_version.minor" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">RP100.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/RP100.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1760,7 +1763,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{EBC5BD26-15C7-4E45-851F-63F3E6671BE1}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">Razorbill RP100</Property>
-				<Property Name="INST_productVersion" Type="Str">1.2.4</Property>
+				<Property Name="INST_productVersion" Type="Str">1.3.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018005</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
