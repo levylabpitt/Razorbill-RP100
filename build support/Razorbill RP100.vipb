@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2022-06-01 12:22:44" Creator="Patrick" Comments="" ID="8cd312c3661cfd9ca17328d580df03fb">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2022-06-07 19:40:33" Creator="Patrick" Comments="" ID="90e2ec9da1fe3dcde39ff263a6753806">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
     <Library_Version>1.3.2.5</Library_Version>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.11.2.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.12.1.1</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -34,8 +34,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- Update to Instrument Framework v1.12
-- UI improvements</Release_Notes>
+      <Release_Notes>- Update to Instrument Framework v1.12.1</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -255,7 +254,7 @@
         <Path>..\lvsrc\SMOs\RP100\API\Get Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E0DB28C57A4C0AD4B650BD1F2838684B</GUID>
+      <GUID>6590D501E01C6319236B18389022C7B2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
