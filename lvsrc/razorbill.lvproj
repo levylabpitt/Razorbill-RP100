@@ -22,7 +22,6 @@
 		</Item>
 		<Item Name="Inst UI.RP100.lvclass" Type="LVClass" URL="../SMOs/Inst UI.RP100/Inst UI.RP100.lvclass"/>
 		<Item Name="Inst.RP100.lvclass" Type="LVClass" URL="../SMOs/Inst.RP100/Inst.RP100.lvclass"/>
-		<Item Name="RP100.lvclass" Type="LVClass" URL="../SMOs/RP100/RP100.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -1433,29 +1432,29 @@
 				<Property Name="Source[0].itemID" Type="Str">{6E151BA7-39BE-46B3-963D-29D9C034EB81}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RP100.lvclass/RP100.TestLauncher.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/RP100.lvclass/RP100.TestLauncher.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/RP100.lvclass/Process.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/RP100.lvclass/Process.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/RP100.lvclass/Methods (overrides)</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/RP100.lvclass/Methods (overrides)</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/RP100.lvclass/private</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/RP100.lvclass/private</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/RP100.lvclass/API</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/RP100.lvclass/API</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
@@ -1467,11 +1466,11 @@
 				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/RP100.lvclass/Typedefs</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/RP100.lvclass/Typedefs</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/RP100.lvclass</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/RP100.lvclass</Property>
 				<Property Name="Source[8].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
 				<Property Name="TgtF_companyName" Type="Str">University of Pittsburgh</Property>
