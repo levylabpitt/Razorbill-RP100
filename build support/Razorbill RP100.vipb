@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2022-08-31 23:59:12" Creator="Patrick" Comments="" ID="24be956cddc792a870d06983c86d50a6">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2023-09-27 07:59:27" Creator="Patrick" Comments="" ID="3a89c1c00cf0608211eb60f18b5b1303">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
-    <Library_Version>1.3.3.2</Library_Version>
+    <Library_Version>1.4.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.12.3.2</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.13.0.9</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -34,7 +34,11 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- Update to Instrument Framework v1.12.3</Release_Notes>
+      <Release_Notes>- Update to Instrument Framework v1.13.0.9
+- Now a proper Instrument:
+  - separate UI and back end processes
+  - hardware abstraction in the Inst.RP100:process.vi
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -113,6 +117,9 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>SMOs/convert V to d.vi</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
@@ -169,6 +176,7 @@
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
@@ -209,7 +217,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\RP100\API\Set Strain.vi</Path>
+        <Path>..\lvsrc\SMOs\Inst.RP100\API\Set Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -223,7 +231,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\RP100\API\Get Strain.vi</Path>
+        <Path>..\lvsrc\SMOs\Inst.RP100\API\Get Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -237,7 +245,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\RP100\API\Set Level.vi</Path>
+        <Path>..\lvsrc\SMOs\Inst.RP100\API\Set Level.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -251,10 +259,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\RP100\API\Get Level.vi</Path>
+        <Path>..\lvsrc\SMOs\Inst.RP100\API\Get Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D7280E4D77F4D49AED7CFDD925B9F79</GUID>
+      <GUID>5ADC9B4CC707846F141472E5333560EF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
