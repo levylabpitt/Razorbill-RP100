@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2023-09-27 12:51:41" Creator="Patrick" Comments="" ID="f60b6c9b66984dcbb5f2954deeeac38a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2025-01-15 08:45:32" Creator="Patrick" Comments="" ID="76b7c23621cffbc1c099d0d27fc08b4e">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
-    <Library_Version>1.4.0.3</Library_Version>
+    <Library_Version>1.5.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -30,15 +30,11 @@
     <VI_Package_Configuration_File>Razorbill RP100.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
-      <Description>Divers for Razorbill RP100 HV amplifier</Description>
+      <Description>Drivers for Razorbill RP100 HV amplifier</Description>
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- Update to Instrument Framework v1.13.0.9
-- Now a proper Instrument:
-  - separate UI and back end processes
-  - hardware abstraction in the Inst.RP100:process.vi
-</Release_Notes>
+      <Release_Notes>- Issue #13: Update to Instrument Framework v1.14.2</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -214,7 +210,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\Inst.RP100\API\Set Strain.vi</Path>
+        <Path>..\lvsrc\SMOs\Inst.RP100\Deprecated\Set Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -228,7 +224,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\Inst.RP100\API\Get Strain.vi</Path>
+        <Path>..\lvsrc\SMOs\Inst.RP100\Deprecated\Get Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -242,7 +238,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\Inst.RP100\API\Set Level.vi</Path>
+        <Path>..\lvsrc\SMOs\Inst.RP100\Deprecated\Set Level.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -256,10 +252,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\Inst.RP100\API\Get Level.vi</Path>
+        <Path>..\lvsrc\SMOs\Inst.RP100\Deprecated\Get Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>031ED6F031A41DCB3A83A4E5F3A3B105</GUID>
+      <GUID>EB482C75062CA0259AB725A196EEF6F7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
