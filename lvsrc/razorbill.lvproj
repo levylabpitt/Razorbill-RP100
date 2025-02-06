@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -20,8 +21,8 @@
 			<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../../build support/Post-Build Custom Action.vi"/>
 			<Item Name="RP100 Build.vi" Type="VI" URL="../../build support/RP100 Build.vi"/>
 		</Item>
-		<Item Name="Inst UI.RP100.lvclass" Type="LVClass" URL="../SMOs/Inst UI.RP100/Inst UI.RP100.lvclass"/>
-		<Item Name="Inst.RP100.lvclass" Type="LVClass" URL="../SMOs/Inst.RP100/Inst.RP100.lvclass"/>
+		<Item Name="Inst.RP100.lvlib" Type="Library" URL="../SMOs/Inst.RP100.lvlib"/>
+		<Item Name="RP100.lvlib" Type="Library" URL="../SMOs/RP100/RP100.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -1448,15 +1449,15 @@
 				<Property Name="Source[0].itemID" Type="Str">{69322DEA-2202-4A60-9372-F9367E1491BB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Inst.RP100.lvclass/Inst.RP100.AppLauncher.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Inst.RP100.lvlib/Inst.RP100.lvclass/Inst.RP100.AppLauncher.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Inst UI.RP100.lvclass</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Inst.RP100.lvlib/Inst UI.RP100.lvclass</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Inst.RP100.lvclass</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Inst.RP100.lvlib/Inst.RP100.lvclass</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
