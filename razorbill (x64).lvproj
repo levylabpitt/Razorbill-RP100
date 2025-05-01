@@ -372,28 +372,8 @@
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 				<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
 				<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Section Cluster__ogtk.vi"/>
-				<Item Name="Choose Color Table.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/API/Choose Color Table.vi"/>
-				<Item Name="Test Dataset.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/XY Utilities/Test Dataset.vi"/>
-				<Item Name="Write Intensity Graph ref.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/Accessors/Write Intensity Graph ref.vi"/>
-				<Item Name="Write XY Graph ref.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/Accessors/Write XY Graph ref.vi"/>
-				<Item Name="XY Graph to Intensity Graph.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/API/XY Graph to Intensity Graph.vi"/>
-				<Item Name="Set XY Graph Value.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/XY Graph/Set XY Graph Value.vi"/>
-				<Item Name="Set XY Graph X Label.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/XY Graph/Set XY Graph X Label.vi"/>
-				<Item Name="Set XY Graph Y Label.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/XY Graph/Set XY Graph Y Label.vi"/>
-				<Item Name="Multiply.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/XY Utilities/Multiply.vi"/>
-				<Item Name="Get XY Graph Value.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/XY Graph/Get XY Graph Value.vi"/>
-				<Item Name="Get XY Graph Y Label.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/XY Graph/Get XY Graph Y Label.vi"/>
-				<Item Name="Get XY Graph X Label.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/XY Graph/Get XY Graph X Label.vi"/>
-				<Item Name="Get Intensity Graph X Scale.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/Intensity Graph/Get Intensity Graph X Scale.vi"/>
-				<Item Name="Get Intensity Graph Y Scale.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/Intensity Graph/Get Intensity Graph Y Scale.vi"/>
-				<Item Name="Get Intensity Graph Value.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/Intensity Graph/Get Intensity Graph Value.vi"/>
-				<Item Name="Get Intensity Graph X Label.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/Intensity Graph/Get Intensity Graph X Label.vi"/>
-				<Item Name="Get Intensity Graph Y Label.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/Intensity Graph/Get Intensity Graph Y Label.vi"/>
-				<Item Name="Get Intensity Graph Z Label.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/Intensity Graph/Get Intensity Graph Z Label.vi"/>
-				<Item Name="Multiply float (multiple).vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/XY Utilities/subVIs/Multiply float (multiple).vi"/>
-				<Item Name="Set XY Graph Value (array).vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/XY Graph/Set XY Graph Value (array).vi"/>
-				<Item Name="Set XY Graph Plot Colors.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/XY Graph/Set XY Graph Plot Colors.vi"/>
 				<Item Name="MGI String Pattern Match Exists.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI String Pattern Match Exists.vi"/>
+				<Item Name="Powershell Terminal.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Build Support/G-CLI/Powershell Terminal.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtkDDA31ED5A732916949AA00FDC27B02BA.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/1D Array to String__ogtkDDA31ED5A732916949AA00FDC27B02BA.vi"/>
@@ -1098,7 +1078,6 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Set VI Library File Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Set VI Library File Info.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="smo.lvlib" Type="Library" URL="/&lt;vilib&gt;/JKI/JKI SMO/smo.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Split Cluster TD__ogtkDDA31ED5A732916949AA00FDC27B02BA.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Split Cluster TD__ogtkDDA31ED5A732916949AA00FDC27B02BA.vi"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
@@ -1166,6 +1145,33 @@
 				<Item Name="TCP_NoDelay_Windows.vi" Type="VI" URL="/&lt;vilib&gt;/Wiresmith Technology/G CLI/Dependencies/TCP_NoDelay_Windows.vi"/>
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
 				<Item Name="TCP_NoDelay_Linux.vi" Type="VI" URL="/&lt;vilib&gt;/Wiresmith Technology/G CLI/Dependencies/TCP_NoDelay_Linux.vi"/>
+				<Item Name="SMO.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/SMO/SMO.lvclass"/>
+				<Item Name="Attribute.Owner.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Support/Attribute.Owner/Attribute.Owner.lvclass"/>
+				<Item Name="def.SMO.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Definitions/def.SMO/def.SMO.lvclass"/>
+				<Item Name="Attribute.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Support/Attribute/Attribute.lvclass"/>
+				<Item Name="Attribute.Identity.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Support/Attribute.Identity/Attribute.Identity.lvclass"/>
+				<Item Name="Attribute.Dependencies.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Support/Attribute.Dependencies/Attribute.Dependencies.lvclass"/>
+				<Item Name="Attribute.SharedResource.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Support/Attribute.SharedResource/Attribute.SharedResource.lvclass"/>
+				<Item Name="Registry-SMO.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Registry/Registry-SMO.lvclass"/>
+				<Item Name="Terminal.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/SMOFacade/Terminal/Terminal.lvclass"/>
+				<Item Name="ArrayToCluster.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/JKI SMO/Utilities/ArrayToCluster.vi"/>
+				<Item Name="Dependency.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Dependency/Dependency.lvclass"/>
+				<Item Name="Attribute.StartupBehavior.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Support/Attribute.StartupBehavior/Attribute.StartupBehavior.lvclass"/>
+				<Item Name="Attribute.ErrorHandling.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Support/Attribute.ErrorHandling/Attribute.ErrorHandling.lvclass"/>
+				<Item Name="dotnet_system_exec.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI DotNet System Exec/dotnet_system_exec/dotnet_system_exec.lvclass"/>
+				<Item Name="LMH-Toolbox.lvlib" Type="Library" URL="/&lt;vilib&gt;/MakerHub/Toolbox/LMH-Toolbox.lvlib"/>
+				<Item Name="Seconds Units -- enum.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/Seconds Units -- enum.ctl"/>
+				<Item Name="Locale -- enum.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/Locale -- enum.ctl"/>
+				<Item Name="Epoch_Seconds Format String.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/Epoch_Seconds Format String.vi"/>
+				<Item Name="Epoch_NotationLocale.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/Epoch_NotationLocale.vi"/>
+				<Item Name="graph_utilities.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PRIrvin/Graph Utilities/graph_utilities.lvclass"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="LVPointDoubleTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointDoubleTypeDef.ctl"/>
+				<Item Name="xy_utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/PRIrvin/XY Utilities/xy_utilities.lvlib"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="SMO.UI.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/SMO.UI/SMO.UI.lvclass"/>
 			</Item>
 			<Item Name="_ChannelScriptingSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelScriptingSupport/_ChannelScriptingSupport.lvlib"/>
 			<Item Name="AB_Build_Invoke_Preview.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Build_Invoke_Preview.vi"/>
@@ -1470,7 +1476,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/Razorbill RP100 64.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BBB75BC5-679F-40C6-8E50-3CBEA89971E2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1A6413F5-5723-4B62-A34E-9F21BD9380B0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Inst.RP100.lvlib/Inst.RP100.lvclass/Inst.RP100.AppLauncher.vi</Property>
