@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2025-05-02 17:53:08" Creator="Patrick" Comments="" ID="750ba00e15c2bd5c8aee6bc324c213d2">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2025-06-25 12:38:32" Creator="Patrick" Comments="" ID="cf9f9213acc8b630bd8d62897eac55e6">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
-    <Library_Version>2.1.0.10</Library_Version>
+    <Library_Version>2.2.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -92,9 +92,9 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[2.1.0]
-- #15: Change to Instrument Framework 1.15
-- #16: update UI to show SMO state</Release_Notes>
+      <Release_Notes>[2.2.0]
+- Ensure UI uses only "local" communication
+- Updated ZMQ backend</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -357,7 +357,7 @@
         <Path>..\lvsrc\Inst.RP100\API\setState.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0CD07ACC585BE1D46F67DE62125A07FF</GUID>
+      <GUID>2281FED1A87C3F6FA9E5440353232FCE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
