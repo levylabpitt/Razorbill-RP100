@@ -1287,9 +1287,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{370E8FE4-E5CE-4BC1-BC3B-F51762943558}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">RP100.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application x64/RP100.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -1395,7 +1395,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{EBC5BD26-15C7-4E45-851F-63F3E6671BE1}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">Razorbill RP100 (x64)</Property>
-				<Property Name="INST_productVersion" Type="Str">2.1.0</Property>
+				<Property Name="INST_productVersion" Type="Str">2.2.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
