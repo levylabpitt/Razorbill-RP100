@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2026-02-06 08:08:06" Creator="Patrick" Comments="" ID="5eb16ed29a656c4de90dea78189fb32d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2026-02-06 09:04:50" Creator="Patrick" Comments="" ID="82f487d3a0019004e49e15f01e8298ef">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
-    <Library_Version>2.2.2.13</Library_Version>
+    <Library_Version>2.2.2.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -298,7 +298,7 @@
         <Path>..\lvsrc\Inst.RP100\API\setState.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E7CBB705533A0FFEA66956F79F1488ED</GUID>
+      <GUID>2A3600504F498F38ECBFF8EC52CE9310</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
