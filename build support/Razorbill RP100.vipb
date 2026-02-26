@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2026-02-09 17:51:08" Creator="Patrick" Comments="" ID="3dec2bfb6f77db6b3be20f2c48bff3ac">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2026-02-26 11:55:33" Creator="Patrick" Comments="" ID="76f62467c097ed6df1917c2984cb3121">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
-    <Library_Version>2.2.3.17</Library_Version>
+    <Library_Version>2.2.4.18</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -34,8 +34,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[2.2.3]
-- build with pgsql/3.12.1.15 (hotfix for connection key)</Release_Notes>
+      <Release_Notes>- build with Remote-Control-ZMQ/1.3.6.27</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -298,7 +297,7 @@
         <Path>..\lvsrc\Inst.RP100\API\setState.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C787CCA3FD85615C33C3FB42463AF39C</GUID>
+      <GUID>0F49E15B73D65037EE1FC06E1B1105D3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
