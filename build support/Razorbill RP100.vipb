@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2026-05-20 20:56:08" Creator="Patrick" Comments="" ID="6b87109f83d22eee054c6b541a9b43f7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2026-09-29 08:46:40" Creator="Patrick" Comments="" ID="41d30987931365b0953967e7f6da8cb8">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
-    <Library_Version>2.2.5.20</Library_Version>
+    <Library_Version>2.2.6.21</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,11 +17,12 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_instrument_type &gt;=1.2.1.13</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_instrument_type &gt;=1.2.2.14</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.15.13.55</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
-      <Post-Build_VI>Post-Build Custom Action.vi</Post-Build_VI>
+      <Post-Build_VI/>
       <Pre-Install_VI/>
       <Post-Install_VI/>
       <Pre-Uninstall_VI/>
@@ -34,7 +35,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- build with LV-Data-PGSQL/3.12.3.17</Release_Notes>
+      <Release_Notes>- build with Instrument Framework 1.15.13</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -297,7 +298,7 @@
         <Path>..\lvsrc\Inst.RP100\API\setState.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49597E96D34AD54DE122B0378E1ABF2E</GUID>
+      <GUID>2701F8EB16684E24BCBBF63504FB8318</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
