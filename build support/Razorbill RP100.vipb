@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2026-09-29 08:46:40" Creator="Patrick" Comments="" ID="41d30987931365b0953967e7f6da8cb8">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-23 14:13:08" Modified_Date="2026-10-01 18:45:50" Creator="Patrick" Comments="" ID="206a43ed699bfba62c7652f7e026f208">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Razorbill_RP100</Package_File_Name>
-    <Library_Version>2.2.6.21</Library_Version>
+    <Library_Version>2.2.7.22</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -35,7 +35,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- build with Instrument Framework 1.15.13</Release_Notes>
+      <Release_Notes>- Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger's CPU use grew with uptime).</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -298,7 +298,7 @@
         <Path>..\lvsrc\Inst.RP100\API\setState.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2701F8EB16684E24BCBBF63504FB8318</GUID>
+      <GUID>C330919647B8A8FF9081BBAA75BDD6AD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
